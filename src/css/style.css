@@ -1,0 +1,109 @@
+body {
+    background: var(--cor-violeta) url(../images/bg-desktop.svg) no-repeat;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-left: 50px;
+}
+
+.cabecalho img {
+    width: 180px;
+    height: 50px;
+}
+
+.principal {
+   display: flex;
+}
+
+.principal .mockups {
+    display: flex;
+    width: 50vw;
+    height: 500px;
+    align-items: center;
+    justify-content: end;
+}
+
+.principal .mockups img {
+    height: 450px;
+    width: 600px;
+}
+
+.principal .info {
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    padding: 80px;
+    color: #fff;
+}
+
+.principal .info .texto-info {
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.principal .info .titulo-info {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+.principal .info .btn-register {
+    display: flex;
+    width: 200px;
+    height: 55px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: var(--cor-violeta);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-size: 17px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+.principal .info .btn-register:hover{
+    cursor: pointer;
+    background-color: var(--cor-rosa);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.rodape .social {
+    display: flex;
+    padding-right: 20px;
+}
+
+.rodape .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid white;
+    color: #fff;
+    border-width: 1px;
+    width: 35px;
+    height: 35px;
+    background: none;
+    margin: 5px 5px 25px;
+
+}
+
+.rodape .social a:hover {
+    color: hotpink;
+    border-color: hotpink;
+    transition: 0.3s;
+}
